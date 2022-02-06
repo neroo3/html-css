@@ -34,11 +34,14 @@ a {
 
 a:hover {
     text-decoration: underline;
+    
 }
 
 section {
+    line-height: 2em;
     padding-top: 10vh;
     padding-bottom: 10vh;
+    padding-left: 30px;
 }
 
 
@@ -50,6 +53,11 @@ section.normal {
 section.imagem {
     background-color: black;
     color: white;
+}
+
+section.imagem > p {
+    background-color: rgba(48, 48, 48, 0.521);
+    width: 400px;
 }
 
 footer {
